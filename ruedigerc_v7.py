@@ -1,12 +1,3 @@
-"""
-Wing X-Touch Controller - Korrigierte Version
-Steuert Behringer Wing Mischpult über Behringer X-Touch Extender
-
-WICHTIGE FIXES:
-- Persistenter Socket für Queries (verhindert TIME_WAIT Problem)
-- Thread-sichere Socket-Operationen
-- Robuste Fehlerbehandlung
-"""
 from __future__ import annotations
 import time
 import socket
